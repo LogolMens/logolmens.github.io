@@ -1,9 +1,7 @@
 body, html {
-  height: 99%;
+  margin: 0;
+  height: 100%;
   background-color: rgba(0, 0, 0, 0.4);
-}
-img {
-
 }
 table {
   width: 100%;
@@ -15,13 +13,13 @@ td {
 img {
   -webkit-filter: blur(5px);
   width: 100%;
-  opacity:0.2;
+  opacity: 0.2;
   transition-duration: 0.3s;
 }
 img:hover {
   -webkit-filter: blur(0px);
   margin-top: -20%;
-  opacity:1;
+  opacity: 1;
 }
 #background-video {
   width: 100%;
